@@ -8,7 +8,7 @@
 	char[] buff = new char[128];
 	int len = -1;
 	
-	String filePath = ".."+
+	String filePath = "C:\\Users\\LG\\Desktop\\Developer\\JSP\\download\\apache-tomcat-8.5.54\\apache-tomcat-8.5.54\\wtpwebapps\\studyJSP_self\\chap05"+
 		"\\message\\notice.txt";
 	try(InputStreamReader fr = new InputStreamReader(new FileInputStream(filePath), "UTF-8")) {
 		while ( (len = fr.read(buff)) != -1) {
